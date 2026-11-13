@@ -1,0 +1,32 @@
+<svg width="100%" viewBox="0 0 680 560" role="img" xmlns="http://www.w3.org/2000/svg"><title>陳冠榮問題與特徵推導心智圖 v4</title><desc>由左側觀察到的問題與特徵（A、C、D、E、F）出發，箭頭指向推導出的內容（G 至 K）。B 已併入 A。</desc><defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+
+<line x1="150" y1="96" x2="240" y2="88" class="arr" marker-end="url(#arrow)"/>
+<line x1="150" y1="178" x2="240" y2="88" class="arr" marker-end="url(#arrow)"/>
+<line x1="150" y1="96" x2="240" y2="228" class="arr" marker-end="url(#arrow)"/>
+<line x1="150" y1="178" x2="240" y2="228" class="arr" marker-end="url(#arrow)"/>
+<line x1="150" y1="258" x2="240" y2="228" class="arr" marker-end="url(#arrow)"/>
+<line x1="150" y1="338" x2="240" y2="228" class="arr" marker-end="url(#arrow)"/>
+<line x1="150" y1="418" x2="240" y2="228" class="arr" marker-end="url(#arrow)"/>
+<line x1="370" y1="88" x2="460" y2="68" class="arr" marker-end="url(#arrow)"/>
+<line x1="370" y1="88" x2="460" y2="158" class="arr" stroke-dasharray="4 4" marker-end="url(#arrow)"/>
+<line x1="370" y1="88" x2="460" y2="248" class="arr" stroke-dasharray="4 4" marker-end="url(#arrow)"/>
+
+<g class="node c-teal" onclick="sendPrompt('說明 A 後腳髖內轉不足')"><rect x="20" y="60" width="130" height="72" rx="8" stroke-width="0.5"/><text class="th" x="85" y="80" text-anchor="middle" dominant-baseline="central">A 後腳髖內轉不足</text><text class="ts" x="85" y="100" text-anchor="middle" dominant-baseline="central">推蹬主導</text><text class="ts" x="85" y="118" text-anchor="middle" dominant-baseline="central">動能未充分傳到骨盆</text></g>
+<g class="node c-teal" onclick="sendPrompt('說明 C 前髖外轉不足')"><rect x="20" y="150" width="130" height="56" rx="8" stroke-width="0.5"/><text class="th" x="85" y="170" text-anchor="middle" dominant-baseline="central">C 前髖外轉不足</text><text class="ts" x="85" y="188" text-anchor="middle" dominant-baseline="central">前腳落地時</text></g>
+<g class="node c-teal" onclick="sendPrompt('說明 D 骨盆封閉')"><rect x="20" y="230" width="130" height="56" rx="8" stroke-width="0.5"/><text class="th" x="85" y="250" text-anchor="middle" dominant-baseline="central">D 骨盆封閉</text><text class="ts" x="85" y="268" text-anchor="middle" dominant-baseline="central">該轉開沒轉開</text></g>
+<g class="node c-teal" onclick="sendPrompt('說明 E 手套手動作很小')"><rect x="20" y="310" width="130" height="56" rx="8" stroke-width="0.5"/><text class="th" x="85" y="330" text-anchor="middle" dominant-baseline="central">E 手套手動作小</text><text class="ts" x="85" y="348" text-anchor="middle" dominant-baseline="central">動作特徵</text></g>
+<g class="node c-teal" onclick="sendPrompt('說明 F 骨盆軀幹背轉很多')"><rect x="20" y="390" width="130" height="56" rx="8" stroke-width="0.5"/><text class="th" x="85" y="410" text-anchor="middle" dominant-baseline="central">F 骨盆軀幹背轉</text><text class="ts" x="85" y="428" text-anchor="middle" dominant-baseline="central">很多，動作特徵</text></g>
+
+<g class="node c-purple" onclick="sendPrompt('說明 H 內外同時不足')"><rect x="240" y="60" width="130" height="56" rx="8" stroke-width="0.5"/><text class="th" x="305" y="80" text-anchor="middle" dominant-baseline="central">H 內外同時不足</text><text class="ts" x="305" y="98" text-anchor="middle" dominant-baseline="central">需要解釋的現象</text></g>
+<g class="node c-purple" onclick="sendPrompt('說明 G 很想留住身體')"><rect x="240" y="200" width="130" height="56" rx="8" stroke-width="0.5"/><text class="th" x="305" y="220" text-anchor="middle" dominant-baseline="central">G 很想留住身體</text><text class="ts" x="305" y="238" text-anchor="middle" dominant-baseline="central">不想轉開</text></g>
+
+<g class="node c-purple" onclick="sendPrompt('說明 I 動作控制不足')"><rect x="460" y="40" width="170" height="56" rx="8" stroke-width="0.5"/><text class="th" x="545" y="60" text-anchor="middle" dominant-baseline="central">I 動作控制不足</text><text class="ts" x="545" y="78" text-anchor="middle" dominant-baseline="central">軟體層面，較可能</text></g>
+<g class="node c-purple" onclick="sendPrompt('說明 J 髖關節整體活動度異常差')"><rect x="460" y="130" width="170" height="56" rx="8" stroke-width="0.5" stroke-dasharray="4 3"/><text class="th" x="545" y="150" text-anchor="middle" dominant-baseline="central">J 髖整體活動度差</text><text class="ts" x="545" y="168" text-anchor="middle" dominant-baseline="central">機率較低</text></g>
+<g class="node c-purple" onclick="sendPrompt('說明 K 一邊好一邊差')"><rect x="460" y="220" width="170" height="56" rx="8" stroke-width="0.5" stroke-dasharray="4 3"/><text class="th" x="545" y="240" text-anchor="middle" dominant-baseline="central">K 一邊好一邊差</text><text class="ts" x="545" y="258" text-anchor="middle" dominant-baseline="central">硬體差異，無法同時解釋</text></g>
+
+<rect class="c-teal" x="20" y="536" width="16" height="16" rx="4" stroke-width="0.5"/>
+<text class="ts" x="44" y="544" dominant-baseline="central">觀察（A、C 至 F）</text>
+<rect class="c-purple" x="200" y="536" width="16" height="16" rx="4" stroke-width="0.5"/>
+<text class="ts" x="224" y="544" dominant-baseline="central">推論（G 至 K）</text>
+<text class="ts" x="380" y="544" dominant-baseline="central">虛線：機率較低或無法解釋</text>
+</svg>
